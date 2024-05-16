@@ -1,0 +1,32 @@
+//Algoritmo 01
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    //Seção de variáveis
+    float primeiraNota;
+    float segundaNota;
+    float terceiraNota;
+    float quartaNota;
+    
+    //Exibindo as variáveis
+    printf("Digite a primeira nota: \n");
+     scanf("%f", &primeiraNota);
+     
+    printf("Digite a segunda nota: \n");
+     scanf("%f", &segundaNota);
+     
+    printf("Digite a terceira nota: \n");
+     scanf("%f", &terceiraNota);
+     
+    printf("Digite a quarta nota: \n");
+     scanf("%f", &quartaNota);
+     
+    float total = primeiraNota + segundaNota + terceiraNota + quartaNota;
+    
+    printf("Total: %f\n", total);
+    
+    return 0;
+    
+}
