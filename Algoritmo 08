@@ -1,0 +1,23 @@
+//Algoritmo 08
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    //Declaração de variáveis
+    float fahrenheit;
+
+    //Exibição de variáveis
+    printf("Digite o valor de uma temperatura em Fahrenheit: \n");
+     scanf("%f", &fahrenheit);
+
+    printf("A temperatura em Fahrenheit é: %.2f \n", fahrenheit);
+
+    float celsius = (fahrenheit-32)/1.8;
+    printf("A temperatura em Celsius é: %.2f", celsius);
+
+   
+
+    return 0;
+
+}
