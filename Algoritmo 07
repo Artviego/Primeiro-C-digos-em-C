@@ -1,0 +1,19 @@
+//Algoritmo 07
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	//Declaração de variáveis
+	int peso_Prato, resultado;
+	
+	//Exibição de variáveis
+	printf("Digite o peso do prato montado (em quilos): \n");
+	 scanf("%i", &peso_Prato);
+	 
+	resultado = peso_Prato*45;
+	printf("O valor a pagar: %i \n", resultado);
+	
+	return 0;
+	
+}
