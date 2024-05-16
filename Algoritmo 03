@@ -17,7 +17,7 @@ int main() {
      
     float area = base * altura;
     
-    printf("Valor da área: %f \n", area);
+    printf("Valor da area: %f \n", area);
     
     
     return 0;
