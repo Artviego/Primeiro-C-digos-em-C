@@ -1,0 +1,25 @@
+//Algoritmo 05
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	//Declarando variáveis
+	int primeiroValor;
+	int segundoValor;
+	
+	//Exibindo as variáveis
+	printf("Digite o primeiro valor: \n");
+	 scanf("%i", &primeiroValor);
+	 
+	printf("Digite o segundo valor: \n");
+	 scanf("%i", &segundoValor);
+	 
+    float divisao = primeiroValor/segundoValor;
+    
+    printf("Divisão do primeiro valor pelo segundo valor: %f \n", divisao);
+    
+    return 0;
+    
+}
