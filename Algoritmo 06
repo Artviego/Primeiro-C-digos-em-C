@@ -1,0 +1,20 @@
+//Algoritmo 06
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+    //Declaração de variáveis
+    float peso;
+    
+    //Exibição das variáveis
+    printf("Digite o seu peso: \n");
+     scanf("%f", &peso);
+     
+    float pesoEmGramas = peso*1000;
+    
+    printf("O seu peso em gramas é: %f \n", pesoEmGramas);
+    
+    return 0;
+	
+}
