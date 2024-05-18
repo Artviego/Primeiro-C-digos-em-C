@@ -1,0 +1,27 @@
+//Algoritmo 09
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	//Declarando variáveis
+	float raio, pi, diametro, comprimento, area; 
+	
+	//Exibindo as variáveis
+	printf("Digite o valor do raio da circunferencia: \n");
+	 scanf("%f", &raio);
+	 
+	//Calcula o diâmetro, comprimento e área
+	pi = 3.14;
+	diametro = 2 * raio;
+	comprimento = 2 * pi * raio;
+	area = pi * pow(raio, 2);
+	
+	//Mostra os resultados
+	printf("Diametro da circunferencia: %.2f\n", diametro);
+	printf("Comprimento da circunferencia: %.2f\n", comprimento);
+	printf("Area da circunferencia: %.2f\n", area);
+	
+	return 0;
+	
+}
