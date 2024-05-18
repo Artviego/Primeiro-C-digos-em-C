@@ -1,0 +1,30 @@
+//Algoritmo 10
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	//Declarando variáveis
+	int x, y, aux;
+	
+	//Exibindo as variáveis
+	x = 20;
+	y = 10;
+	printf("X vale %i\n", x);
+	printf("Y vale %i\n", y);
+	
+	printf("Agora vamos inverter os valores dessas variaveis! \n");
+	printf("\n");
+	
+	//Aplicando a inversão de valores
+	aux = y;
+	y = x;
+	x = aux;
+	
+	//Resultados
+	printf("O novo valor de X vale %i\n", x);
+	printf("O novo valor de Y vale %i\n", y);
+	
+	return 0;
+	
+}
